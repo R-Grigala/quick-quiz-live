@@ -80,26 +80,22 @@ WSGI_APPLICATION = 'quiz_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-# DATABASES = {
+DATABASES = {
+    'default': {
+        
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-#     'default': {
+        'NAME': 'd19c45hmiskohb',
 
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'USER': 'kdmzarwiyjvcby',
 
-#         'NAME': 'd19c45hmiskohb',
+        'PASSWORD': 'c91542d99dff9d93ec89bb78a39a6c0f7431d5aca48d313ef4dee42ef1d19317',
 
-#         'USER': 'kdmzarwiyjvcby',
+        'HOST': 'ec2-54-170-90-26.eu-west-1.compute.amazonaws.com',
 
-#         'PASSWORD': 'c91542d99dff9d93ec89bb78a39a6c0f7431d5aca48d313ef4dee42ef1d19317',
-
-#         'HOST': 'ec2-54-170-90-26.eu-west-1.compute.amazonaws.com
-',
-
-#         'PORT': '5432',
-
-#     }
-
-# }
+        'PORT': '5432',
+    }
+}
 
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=600)
