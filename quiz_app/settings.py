@@ -86,13 +86,14 @@ WSGI_APPLICATION = 'quiz_app.wsgi.application'
 
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-#         'NAME': 'quick_quiz',
+#         'NAME': 'd19c45hmiskohb',
 
-#         'USER': 'postgres',
+#         'USER': 'kdmzarwiyjvcby',
 
-#         'PASSWORD': 'grigala271999',
+#         'PASSWORD': 'c91542d99dff9d93ec89bb78a39a6c0f7431d5aca48d313ef4dee42ef1d19317',
 
-#         'HOST': '127.0.0.1',
+#         'HOST': 'ec2-54-170-90-26.eu-west-1.compute.amazonaws.com
+',
 
 #         'PORT': '5432',
 
